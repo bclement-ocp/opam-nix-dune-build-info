@@ -1,0 +1,6 @@
+(executable
+  (name Main)
+  (public_name opam-nix-dune-build-info)
+  (package opam-nix-dune-build-info)
+  (libraries dune-build-info)
+  (modules Main))
